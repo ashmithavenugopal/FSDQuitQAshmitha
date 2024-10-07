@@ -210,7 +210,7 @@ applyDiscount(): void {
     },
     error: (err) => {
       console.error(err);
-      alert('Error fetching discount code');
+      alert('Invalid Discount Code');
     }
   });
 }
